@@ -1,0 +1,17 @@
+-- Crear el proyecto
+npm create vite@latest
+
+-- Seleccionar el framework (vue)
+
+-- Instalar tailwind
+npm i tailwindcss @tailwindcss/vite
+
+-- Configurar vite.config.ts
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
