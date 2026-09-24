@@ -15,3 +15,6 @@ export default defineConfig({
     tailwindcss(),
   ],
 })
+
+-- Reemplazar el contenido del archivo style.css por
+@import "tailwindcss";
